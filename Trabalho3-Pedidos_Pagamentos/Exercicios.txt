@@ -1,0 +1,33 @@
+0 – Crie a DDL do banco de dados da imagem em anexo. Insira no mínimo 15 registros em cada tabela (quando possível).
+
+1 – Retornar todos os pedidos de um parceiro (nome do parceiro, nº pedido).
+
+2 – Retornar todos os parceiros (nome), o nome das suas cidades, a sigla do estado e o nome do país.
+
+3 – Retornar o cadastro do usuário.
+
+4 – Retornar o cadastro do parceiro.
+
+5 – Juquinha está fazendo um BI para seu chefe. Com isso ele ordenou que Juquinha criasse um relatório para retornar as seguintes informações:
+    Número do pedido;
+    Quantidade de produtos no pedido.
+    Nome da tabela de preço utilizada;
+    Nome da condição de pagamento utilizada;
+    Nome do parceiro;
+    Nome do usuário que fez o pedido;
+    O nome da cidade;
+    A sigla do estado;
+    O nome do país;
+    O telefone do usuário;
+    O telefone do parceiro.   
+    Ajude o Juquinha a fazer tal relatório.
+
+6 – Juquinha é um fã da Formula 1 e está fazendo uns experimentos com os nomes das esquipes de duas temporadas distintas. No conjunto de 2023 temos os times (Alfa Romeo, Aston Martin, Alpha Tauri, Renault, Ferrari, Haas, McLaren, Mercedes, Red Bull e Williams). Já no Conjunto de 2018 temos as equipes (Ferrari, Force India, Racing Point, Haas, McLaren, Mercedes, Aston Martin, Renault, Sauber, Red Bull e Williams). Ajude Juquinha a realizar todos os joins possíveis com esses dois conjuntos.
+
+7 – Irineu, chefe de Juquinha, solicitou um novo relatório para Juquinha fazer. Esse relatório deve conter o número do pedido, o nome dos produtos, seu código, seu preço, o nome da tabela de preço, o início e o fim da vigência e se a tabela está ativa. Por fim deverá colocar também a observação do pedido. Ajude o Juquinha a fazer tal BI.
+
+8 – Juquinha deverá fazer um BI para somar o valor de todos os pedidos dos parceiros e outro para os usuários.
+
+9 – Fazer uma consulta para retornar todos os pedidos de parceiros ativos e inativos, retornando o número do pedido, nome do parceiro, se ele está inativo colocar a string “Parceiro inativo”, se ele está ativo colocar “Parceiro Ativo”. Dica usar o union.
+
+10 – Faça um full outer join em todas as tabelas.

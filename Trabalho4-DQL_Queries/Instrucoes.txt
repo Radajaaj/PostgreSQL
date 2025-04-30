@@ -1,0 +1,25 @@
+Juquinha foi contratado para criar um banco de dados para a empresa que está gerindo o acordo de Sokovia.
+Inicialmente a empresa quer cadastrar os heróis, vilões e as cidades atacadas. 
+Lembrando que um vilão pode ser oponente de mais de um herói. 
+Um herói pode defender mais de uma cidade. 
+Cadastre as batalhas em banco, no mínimo 10 colunas por tabela (quando possível) um herói tem várias frases de impacto.
+
+Crie a DDL do BD, insira 10 tuplas de informação por tabela.
+
+Crie o comando SQL para atualizar o nome do herói Batman para "Homi-murcego".
+
+-Atualize o poder do vilão Vegeta para +8000
+
+-Insira um atributo a mais na tabela cidade.
+
+-Crie uma restrição no campo poder do herói para não permitir valores menores que 300.
+
+-Nenhum campo poderá ser nulo.
+
+-Crie uma tabela chamada grupinho para vincular os heróis (vincule dados)
+
+-Crie uma subquery para retornar todos os vilões que batalharam em Xique-Xique Bahia.
+
+-Crie uma subquery para retornar todas as frases de impacto do herói homem de ferro.
+
+-Crie uma subquery que retorne os vilões do Batman.

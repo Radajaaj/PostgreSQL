@@ -1,0 +1,4 @@
+Faça uma modelagem de uma biblioteca. 
+Construa um minimundo para que a modelagem faça sentido. 
+Mínimo de 10 tabelas (fortes). 
+Entregar compactado o arquivo da modelagem (.vpp) e um arquivo de texto com o minimundo.

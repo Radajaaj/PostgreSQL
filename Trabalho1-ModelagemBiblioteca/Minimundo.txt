@@ -1,0 +1,32 @@
+Será diagramado o sistema de armazenamento e empréstimo de livros de uma única biblioteca. 
+
+* A primeira tabela irá armazenar os dados de pessoas físicas. Terá CPF (varchar), nome (varchar), 
+sobrenome (varchar), Data de Nascimento (date), telefone (chave estrangeira), email (varchar), endereço (FK);
+
+* A biblioteca possui diversos funcionários, chamados de bibliotecários. Cada funcionário possui uma 
+função (string), salário (float);
+
+* Endereço será uma tabela. Armazenará a rua (varchar), bairro (varchar), número (int), cidade (varchar), 
+estado (varchar), CEP (varchar). Haverá outra tabela relacionando os endereços com cada pessoa/estabelecimento.
+
+* A biblioteca também irá armazenar diversos livros: com autor (chave estrangeira), nome (string), ISBN (int), 
+e ano (int);
+
+* Cada livro terá uma editora, com Nome (varchar), endereço (FK), e ID.
+
+* Os autores de um livro são entidades diferentes. Possuem referência à pessoa física. Um livro pode ter vários autores,
+e vice-versa;
+
+* Os livros estão divididos em seções, que possuem um nome (string), e quantidade de livros nela (int);
+
+* Os livros poderão ser emprestados por um cliente, que herda os dados de pessoa física, e possui uma chave de 
+cadastro (int), e chave para a tabela de pessoa física;
+
+* Temos que armazenar os dados de cada empréstimo, que possui: livro emprestado (chave estrangeira), cliente que 
+emprestou (chave estrangeira), funcionário que fez a transação (chave estrangeira), data do empréstimo (string), 
+data de devolução (string), e número de vezes que o prazo foi estendido (int < 3);
+
+* O estabelecimento também será uma entidade, e vai possuir, cnpj (string), telefone (chave estrangeira), 
+aluguel (float), e nome (string).
+
+* Os telefones estarão armazenados numa entidade, e possuirão: ID (chave), e telefone (string).
